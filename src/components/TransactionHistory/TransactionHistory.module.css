@@ -1,0 +1,26 @@
+.table {
+  width: 600px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head {
+  background-color: rgb(88, 88, 88);
+  color: white;
+}
+
+.headText {
+  border: 2px solid black;
+  font-size: 20px;
+}
+.tableBody {
+  background-color: rgb(200, 200, 200);
+}
+.tableRow:nth-child(odd) {
+  background-color: rgb(225, 225, 225);
+}
+.tableText {
+  border: 2px solid black;
+  font-size: 20px;
+}

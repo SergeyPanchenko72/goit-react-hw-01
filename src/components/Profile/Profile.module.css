@@ -1,0 +1,56 @@
+.container {
+  width: 600px;
+  border: 2px solid #000;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.foto {
+  width: 360px;
+  border-radius: 50%;
+  background-color: rgb(30, 30, 30);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 36px;
+  color: darkgray;
+  margin-bottom: 20px;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(200, 200, 200);
+  border-top: 2px solid rgb(88, 88, 88);
+  padding: 16px 0;
+}
+.item:nth-child(2) {
+  border-left: 2px solid rgb(88, 88, 88);
+  border-right: 2px solid rgb(88, 88, 88);
+}
+.itemParametr {
+  font-size: 36px;
+}
+.itemValue {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
